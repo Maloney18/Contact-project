@@ -1,0 +1,90 @@
+/* .star-cont {
+    border: 1px solid red;
+    background-clip: green;
+}
+
+.star-cont {
+    background-clip: red;
+} */
+
+.name-of-user {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.507);
+    margin: 7px auto;
+    height: 40vh;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.upping {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upping-left {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.middle-display {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+.trash {
+    color: red;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 0;
+    top: 45px;
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.delete {
+    padding: 8px;
+    background-color: orangered;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.green {
+    background-color: rgba(45, 158, 45, 0.925)
+}
+
+.phone-number {
+    flex: 2;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.number-of-user {
+    padding: 7px;
+    height: 8vh;
+    margin: auto;
+    display: flex;
+    max-width: 450px;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.507);
+    background-color: rgba(255, 255, 255, 0.788);
+}
+
+.increase-font {
+    font-size: 17px;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+
+.contact {
+    border-top: 1px solid;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+}
+
+.fill-star {
+    color: orangered;
+    position: absolute;
+    right: -5px;
+    top: 0;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+.call-icon {
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-icon + {
+    cursor: pointer;
+}
+
+.linked {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
