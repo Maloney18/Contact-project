@@ -22,7 +22,6 @@ const CallScreen = () => {
             background: `linear-gradient(to bottom right, #42275a, #734b6d)`
         }
 
-
     return (
         <div className="background-image" style={backG}>
             <div className='call-page'>
