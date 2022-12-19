@@ -81,6 +81,7 @@ form {
     flex-direction: column;
     row-gap: 30px;
     list-style-type: none;
+    width: 270px;
 }
 
 .edit-contact-info li {

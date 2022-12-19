@@ -50,7 +50,7 @@ const Favorites = () => {
                                     }
                                 </div>
                                 <div className="fav-info">
-                                    <h2>{fav.Name}</h2> 
+                                    <h3>{fav.Name}</h3> 
                                     <p className='fav-phone'>{fav.Phone}</p>
                                 </div>
                             </div>

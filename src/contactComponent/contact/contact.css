@@ -51,14 +51,14 @@
     display: flex;
     width: 100px;
     align-items: center;
-    justify-content: space-around;
+    gap: 5px;
 }
 
 .delete {
     padding: 8px;
     background-color: orangered;
     outline: none;
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.425);
     border-radius: 3px;
 }
 
