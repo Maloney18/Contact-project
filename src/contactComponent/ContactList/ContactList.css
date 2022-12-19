@@ -4,7 +4,7 @@
     margin: 30px auto 0;
     max-width: 450px;
     position: relative;
-    height: 90vh;
+    height: 85vh;
 }
 
 .empty-smiley {
@@ -49,7 +49,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: 40px;
+    bottom: 0;
     right: 10px;
     cursor: pointer;
     background-color: rgb(100, 149, 237);
@@ -70,4 +70,10 @@ h1 {
 
 .adding-contacts:hover .tool-tip {
     display: block;
+}
+
+@media screen and (min-height: 1279px) {
+    .contact-list {
+        height: 60vh;
+    }
 }

@@ -55,7 +55,7 @@ const AddContact = () => {
             dispatch(changeId(nanoid()));
           }}
         >
-          <GrCheckmark />
+          <GrCheckmark /> 
         </button>
       </div>
 

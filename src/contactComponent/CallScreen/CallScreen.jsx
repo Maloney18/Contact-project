@@ -22,10 +22,16 @@ const CallScreen = () => {
             background: `linear-gradient(to bottom right, #42275a, #734b6d)`
         }
 
+    const colorConv = {
+        content:'', 
+        color: `${data.color}`, 
+        filter: 'hue-rotate(90deg)'
+    }
+
     return (
         <div className="background-image" style={backG}>
             <div className='call-page'>
-                <div className="up-call-sect">
+                <div className="up-call-sect" style={colorConv}>
                     <h2 className="call-user-name">
                         {data.Name}
                     </h2>
