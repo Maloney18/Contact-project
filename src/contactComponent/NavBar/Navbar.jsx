@@ -8,10 +8,9 @@ const Navbar = () => {
     const activeStyle = ({ isActive }) => (
         isActive ?
         {
-            content: '',
             borderBottom: '2px solid orangered'
         } :
-        {content: ''}
+        {borderBottom: 'none'}
     )
 
     return (

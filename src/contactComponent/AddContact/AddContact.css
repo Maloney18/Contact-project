@@ -5,7 +5,6 @@ form {
     align-items: center;
     flex-direction: column;
     row-gap: 20px;
-    animation: animate 0.5s linear forwards;
 }
 
 .upper {
@@ -110,13 +109,4 @@ input {
 
 input:active {
     background-color: transparent;
-}
-
-@keyframes animate {
-    from {
-        transform: translateX(1000px);
-    }
-    to {
-        transform: translateX(0)
-    }
 }

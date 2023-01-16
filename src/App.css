@@ -7,8 +7,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(245, 229, 229);
+    height: 100vh;
 }
 
-.App {
-    height: 100vh;
+.App, #root {
+    height: 100%;
 }

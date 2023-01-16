@@ -28,17 +28,8 @@ nav {
     cursor: pointer;
 }
 
-.nav-links::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    transition: width 0.2s linear;
-}
-
-.nav-links:hover::before {
-    width: 100%;
-    border: 1px solid orangered;
+.nav-links:hover {
+    opacity: 0.7;
 }
 
 .active-link {
